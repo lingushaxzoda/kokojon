@@ -1,0 +1,30 @@
+.mee{
+    .container{
+        border-radius: 30px;
+    }
+    .div{
+        display: flex; 
+        justify-content: space-between;
+        align-items: center;
+    }
+    h2{
+        font-size: 80px;
+        font-style: bold;
+        color: cyan;
+        padding-left: 30px;
+        cursor: pointer;
+        &:hover{
+            color: indianred;
+        }
+    }
+    h3{
+        font-size: 80px;
+        font-style: bold;
+        color: cyan;
+        padding-left: 30px;
+        cursor: pointer; 
+        &:hover{
+            color:springgreen;
+        }
+    }
+}
